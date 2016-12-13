@@ -52,7 +52,7 @@ public class AutomovelBean implements Serializable{
 	public void alterar(){
 		automovelDao.alterar(automovel);
 		aplicarEstadoInicial();
-		exibirMensagem("Alteração", "Registro alterado com sucesso");
+		exibirMensagem("Alteração", "Registro alterado com sucesso!");
 	}
 
 	public void listar(){
